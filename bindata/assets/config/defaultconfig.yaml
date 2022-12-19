@@ -19,6 +19,8 @@ extendedArguments:
   - "true"
   leader-elect-retry-period:
   - "3s"
+  leader-elect-renew-deadline:
+  - "12s"
   leader-elect-resource-lock:
   - "configmapsleases"
   controllers:
